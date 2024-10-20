@@ -101,7 +101,8 @@ end
 M.btns = function()
   local toggle_theme = btn(g.toggle_theme_icon, "ThemeToggleBtn", "Toggle_theme")
   local closeAllBufs = btn(" 󰅖 ", "CloseAllBufsBtn", "CloseAllBufs")
-  return toggle_theme .. closeAllBufs
+  return ""
+  -- return toggle_theme .. closeAllBufs
 end
 
 return function()
