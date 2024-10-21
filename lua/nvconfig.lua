@@ -6,13 +6,13 @@ local pallete = {
   light_blue = "#016ab8",
   dark_red = "#57040e",
   red = "#b7221e",
-  light_red = "#bc2e2c",
+  light_red = "#bc3e2c",
   violet = "#494fb6",
   black = "#151c28",
   light_black = "#042034",
   dark_green = "#2b3300",
   light_green = "#bafb00",
-  magenta = "#f255a1",
+  magenta = "#b02669",
   white = "#fdf6e3",
   pure_black = "#000000",
 }
@@ -31,7 +31,7 @@ local options = {
     statusline = {
       enabled = true,
       theme = "default", -- default/vscode/vscode_colored/minimal
-      separator_style = "round", -- deafult/round/block/arrow
+      separator_style = "slash", -- deafult/round/block/arrow
       order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor" },
       modules = nil,
       lualine = true,
@@ -97,8 +97,8 @@ local options = {
       St_NormalModeSep = { fg = pallete.blue },
       St_CommandMode = { bg = pallete.light_gray },
       St_CommandModeSep = { fg = pallete.light_gray },
-      St_InsertMode = { bg = pallete.violet },
-      St_InsertModeSep = { fg = pallete.violet },
+      St_InsertMode = { bg = pallete.magenta },
+      St_InsertModeSep = { fg = pallete.magenta },
 
       -- notify
       NotifyINFOIcon = { fg = pallete.blue },

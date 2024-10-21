@@ -7,6 +7,7 @@ local default_sep_icons = {
   round = { left = "", right = "" },
   block = { left = "█", right = "█" },
   arrow = { left = "", right = "" },
+  slash = { left = "", right = "" },
 }
 
 local separators = (type(sep_style) == "table" and sep_style) or default_sep_icons[sep_style]
